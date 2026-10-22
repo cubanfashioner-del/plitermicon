@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f9fa">
+  <meta name="description" content="Consulta los términos y condiciones de CFT — Cuba Fashion Technologies.">
+  <title>Términos y condiciones | CFT — Cuba Fashion Technologies</title>
+  <script>
+    try {
+      const savedTheme = localStorage.getItem("cft-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      }
+    } catch (error) {
+      console.warn("No se pudo leer la preferencia de tema guardada.", error);
+    }
+  </script>
+  <link rel="stylesheet" href="../css/legal.css">
+  <script src="../js/legal.js" defer></script>
+</head>
+<body class="legal-page">
+  <header class="legal-header">
+    <a class="legal-brand" href="../../Definitivo/html/index.html" aria-label="CFT — Cuba Fashion Technologies, inicio">
+      <span class="legal-brand-mark" aria-hidden="true">CFT</span>
+      <span class="legal-brand-name">Cuba Fashion Technologies</span>
+    </a>
+    <nav class="legal-nav" aria-label="Información legal">
+      <a href="privacidad.html">Privacidad</a>
+      <a href="terminos.html" aria-current="page">Términos</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo oscuro" aria-pressed="false">
+        <span id="theme-toggle-label">Oscuro</span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="legal-main">
+    <article class="legal-card">
+      <span class="legal-eyebrow">Información legal</span>
+      <h1>Términos y condiciones</h1>
+      <p class="legal-intro">Al navegar por el sitio de CFT — Cuba Fashion Technologies, ten en cuenta las siguientes condiciones.</p>
+
+      <section>
+        <h2>Uso del sitio</h2>
+        <p>Este sitio presenta información general sobre CFT — Cuba Fashion Technologies y sus servicios. Su contenido se ofrece únicamente con fines informativos y no constituye una oferta contractual.</p>
+      </section>
+
+      <section>
+        <h2>Servicios y cotizaciones</h2>
+        <p>El alcance, disponibilidad, precio y plazos de cualquier servicio se acordarán directamente con cada cliente antes de iniciar un proyecto. Una consulta o contacto no implica la aceptación de un encargo.</p>
+      </section>
+
+      <section>
+        <h2>Contenido y enlaces externos</h2>
+        <p>El contenido se proporciona de buena fe y puede modificarse sin previo aviso. Los enlaces a páginas de terceros se facilitan como referencia; CFT — Cuba Fashion Technologies no controla ni garantiza sus contenidos o servicios.</p>
+      </section>
+
+      <section>
+        <h2>Responsabilidad</h2>
+        <p>Se procura mantener el sitio disponible y actualizado, pero no se garantiza que el acceso sea ininterrumpido ni que toda la información esté libre de errores. El uso de los enlaces externos queda a criterio de cada visitante.</p>
+      </section>
+
+      <nav class="legal-page-links" aria-label="Otras páginas legales">
+        <a href="privacidad.html">Leer la política de privacidad</a>
+        <a href="../../Definitivo/html/index.html">Volver al sitio CFT</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="legal-footer">
+    <span>© <span id="current-year"></span> CFT — Cuba Fashion Technologies</span>
+    <a href="privacidad.html">Política de privacidad</a>
+  </footer>
+</body>
+</html>

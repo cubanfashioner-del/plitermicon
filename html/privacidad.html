@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f9fa">
+  <meta name="description" content="Consulta la política de privacidad de CFT — Cuba Fashion Technologies.">
+  <title>Política de privacidad | CFT — Cuba Fashion Technologies</title>
+  <script>
+    try {
+      const savedTheme = localStorage.getItem("cft-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      }
+    } catch (error) {
+      console.warn("No se pudo leer la preferencia de tema guardada.", error);
+    }
+  </script>
+  <link rel="stylesheet" href="../css/legal.css">
+  <script src="../js/legal.js" defer></script>
+</head>
+<body class="legal-page">
+  <header class="legal-header">
+    <a class="legal-brand" href="../../Definitivo/html/index.html" aria-label="CFT — Cuba Fashion Technologies, inicio">
+      <span class="legal-brand-mark" aria-hidden="true">CFT</span>
+      <span class="legal-brand-name">Cuba Fashion Technologies</span>
+    </a>
+    <nav class="legal-nav" aria-label="Información legal">
+      <a href="privacidad.html" aria-current="page">Privacidad</a>
+      <a href="terminos.html">Términos</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Cambiar a modo oscuro" aria-pressed="false">
+        <span id="theme-toggle-label">Oscuro</span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="legal-main">
+    <article class="legal-card">
+      <span class="legal-eyebrow">Información legal</span>
+      <h1>Política de privacidad</h1>
+      <p class="legal-intro">Esta política explica cómo se procesa la información cuando utilizas el sitio y sus opciones de contacto.</p>
+
+      <section>
+        <h2>Información que recopilamos</h2>
+        <p>El acceso de clientes utiliza Supabase Auth para gestionar el registro, el inicio de sesión y las solicitudes de restablecimiento de contraseña. Al usar estas funciones, tu correo electrónico y los datos técnicos necesarios para autenticar la sesión se procesan mediante Supabase conforme a sus políticas de privacidad. La opción «Recordarme» conserva la sesión en el almacenamiento local de este navegador; si no se selecciona, la sesión se guarda solo en la sesión actual del navegador.</p>
+      </section>
+
+      <section>
+        <h2>Contacto mediante servicios externos</h2>
+        <p>Los enlaces de contacto abren WhatsApp y los enlaces editoriales pueden dirigir a sitios de terceros. Si eliges utilizarlos, esos servicios podrían procesar información conforme a sus propias políticas de privacidad; te recomendamos consultarlas antes de compartir datos.</p>
+      </section>
+
+      <section>
+        <h2>Uso de la información</h2>
+        <p>La información que decidas compartir voluntariamente por canales externos se utilizará para responder a tu consulta y dar seguimiento a la conversación.</p>
+      </section>
+
+      <section>
+        <h2>Actualizaciones</h2>
+        <p>Esta política puede actualizarse para reflejar cambios en el sitio o en los servicios ofrecidos. La versión publicada en esta página será la vigente.</p>
+      </section>
+
+      <nav class="legal-page-links" aria-label="Otras páginas legales">
+        <a href="terminos.html">Leer los términos y condiciones</a>
+        <a href="../../Definitivo/html/index.html">Volver al sitio CFT</a>
+      </nav>
+    </article>
+  </main>
+
+  <footer class="legal-footer">
+    <span>© <span id="current-year"></span> CFT — Cuba Fashion Technologies</span>
+    <a href="terminos.html">Términos y condiciones</a>
+  </footer>
+</body>
+</html>
