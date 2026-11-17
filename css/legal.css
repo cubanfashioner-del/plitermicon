@@ -1,17 +1,4 @@
 :root {
-  color-scheme: light;
-  --bg: #f8f9fa;
-  --surface: #fff;
-  --text: #0f172a;
-  --muted: #64748b;
-  --accent: #b48a3d;
-  --accent-soft: rgba(180, 138, 61, .1);
-  --line: #e2e8f0;
-  --shadow: 15, 23, 42;
-  --font: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-:root[data-theme="dark"] {
   color-scheme: dark;
   --bg: #0b0f0e;
   --surface: #131b18;
@@ -21,6 +8,7 @@
   --accent-soft: rgba(212, 175, 55, .12);
   --line: rgba(241, 245, 249, .1);
   --shadow: 0, 0, 0;
+  --font: Inter, "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 *,
@@ -85,18 +73,10 @@ a {
 }
 
 .legal-brand-mark .logo-dark {
-  display: none;
-}
-
-:root[data-theme="dark"] .legal-brand-mark .logo-light {
-  display: none;
-}
-
-:root[data-theme="dark"] .legal-brand-mark .logo-dark {
   display: block;
 }
 
-:root[data-theme="dark"] .legal-brand-mark {
+.legal-brand-mark {
   background: #0b4b34;
 }
 
@@ -130,24 +110,6 @@ a {
 .legal-nav a[aria-current="page"] {
   color: var(--accent);
   font-weight: 700;
-}
-
-.theme-toggle {
-  min-height: 38px;
-  padding: 0 13px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--text);
-  font: inherit;
-  font-size: .76rem;
-  cursor: pointer;
-  transition: border-color .2s ease, background-color .2s ease;
-}
-
-.theme-toggle:hover {
-  border-color: var(--accent);
-  background: var(--accent-soft);
 }
 
 .legal-main {
